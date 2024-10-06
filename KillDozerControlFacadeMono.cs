@@ -6,6 +6,7 @@ using UnityEngine.Events;
 
 
 
+[SelectionBase]
 public class KillDozerControlFacadeMono : MonoBehaviour
 {
 
@@ -49,7 +50,7 @@ public class KillDozerControlFacadeMono : MonoBehaviour
     #endregion
 
 
-    #region Learn: TDD Helper
+    #region LEARN: TDD Helper
 
     public void PushRandomValueToAll()
     {
