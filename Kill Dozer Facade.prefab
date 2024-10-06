@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8593178777461271204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4100490979031753007}
+  - component: {fileID: 1048133720593983343}
+  m_Layer: 0
+  m_Name: Kill Dozer Facade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4100490979031753007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8593178777461271204}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.8890855, y: 6.4696813, z: -13.350025}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6526870831665514756}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1048133720593983343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8593178777461271204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9366c7c633f412e449d811972d596edd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_moveBackForwardRelay:
+    m_axisState: 0
+    m_onAxisStateEmitted:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1328578303741046080}
+          m_TargetAssemblyTypeName: BasicKillDozerMoveMono, be.elab.toytank
+          m_MethodName: SetPercentBackForwardTo
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  m_rotateLeftRightRelay:
+    m_axisState: 0
+    m_onAxisStateEmitted:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 4701985012985901715}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  m_rocketEnginePowerRelay:
+    m_axisState: 0
+    m_onAxisStateEmitted:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7408939784743558903}
+          m_TargetAssemblyTypeName: KillDozerJetEngineMono, Assembly-CSharp
+          m_MethodName: SetEnginePowerInPercent
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!1001 &7257764886863454030
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4100490979031753007}
+    m_Modifications:
+    - target: {fileID: 2735950805804821981, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+        type: 3}
+      propertyPath: m_Name
+      value: Kill Dozer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480194077740275274, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.400915
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480194077740275274, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.2509894
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480194077740275274, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.800025
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480194077740275274, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5762184
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480194077740275274, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480194077740275274, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.81729573
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480194077740275274, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480194077740275274, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480194077740275274, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 109.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480194077740275274, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1d4d06e77d1d28449db239b1ff04a5b, type: 3}
+--- !u!114 &1328578303741046080 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8559315785213424142, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7257764886863454030}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4701985012985901715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd297030f6e76ae4390123a0ea5c8c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4701985012985901715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2735950805804821981, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7257764886863454030}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6526870831665514756 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4480194077740275274, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7257764886863454030}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7408939784743558903 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 173694029889438137, guid: c1d4d06e77d1d28449db239b1ff04a5b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7257764886863454030}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd879a59314d2f240a394ab749a9ac71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
